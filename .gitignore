@@ -3,7 +3,7 @@
 
 
 # Ignore private data in model_data folder
-data/**
+data/model_data/**
 # Do not ignore public data in model_data folder
 !data/public_data
 
