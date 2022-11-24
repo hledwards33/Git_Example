@@ -10,6 +10,9 @@ data/**
 # Ignore the virtual environment
 venv/
 
+# PyCharm
+.idea/
+
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
