@@ -1,4 +1,7 @@
-class Hello:
+from models.base_model import BaseModel
+
+
+class Hello(BaseModel):
 
     def __init__(self):
         pass
