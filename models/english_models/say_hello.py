@@ -1,7 +1,7 @@
 class Hello:
 
-    def __init__(self, name: str):
-        self.name = name
+    def __init__(self):
+        pass
 
-    def hello(self):
-        print(f"Hello {self.name}")
+    def run(self, name: str):
+        print(f"Hello {name}")
