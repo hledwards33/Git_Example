@@ -9,13 +9,14 @@ logger = logging.getLogger()
 
 def run_model(name: str, language: str):
     if language == "English":
-        Hello.run(name)
+        hello = Hello(name=name)
+        hello.run()
         print("Do something...")
-        Goodbye.run(name)
+        goodbye = Goodbye(name=name)
+        goodbye.run()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    logger.info("Model has started to run.")
     run_model(name="Credit Risk", language="English")
     logger.info("Model has finished running.")
